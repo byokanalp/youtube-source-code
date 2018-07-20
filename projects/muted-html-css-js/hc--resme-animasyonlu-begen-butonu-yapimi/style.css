@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #555555;
+}
+
+.box {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box-image p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #dc143c;
+}
+
+.box .like {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #f1f1f1;
+    font-size: 100px;
+    transition: .4s;
+}
+
+.box input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    z-index: 90000;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box input:checked + .like {
+    color: #dc143c;
+}
+
+.box:hover > .like {
+    transform: translate(-50%, -50%) scale(2);
+}
