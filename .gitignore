@@ -1,3 +1,5 @@
+.vscode
+*.psd
 node_modules
 package-lock.json
-projects/_TRIALS
+source/_TRIALS

@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root           : 'projects/_TRIALS/',
-    currentProject : 'hc-basit-buton-yapimi'
+    currentProject : 'hj-canvas-ile-ates-efekti'
 }
 
 gulp.task('browser-sync', () => {

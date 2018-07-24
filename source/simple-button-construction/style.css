@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #333333;
+    padding-top: 20%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Nunito";
+    font-size: 40px;
+    font-weight: 100;
+    color: #f1f1f1;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 25px;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 3px;
+    border-bottom: 3px solid rgba(0, 0, 0, .25);
+    text-shadow: 0 -2px rgba(0, 0, 0, .15);
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    transition: .3s linear;
+}
+
+.btn         { background-color: #a8a8a8; } /* varsayılan buton rengi */
+.btn-success { background-color: #2bcf5d; }
+.btn-primary { background-color: #2c9ae4; }
+.btn-warning { background-color: #bfd830; }
+.btn-danger  { background-color: #e4482c; }
+
+.btn:hover,
+.btn-success:hover,
+.btn-primary:hover,
+.btn-warning:hover,
+.btn-danger:hover {
+    filter: sepia(25%);
+}
+
+.btn:active,
+.btn-success:active,
+.btn-primary:active,
+.btn-warning:active,
+.btn-danger:active {
+    filter: saturate(140%);
+}
+
+.btn-anim:active {
+    transform: translate(0, 3px);
+    transition: .3s linear;
+}
