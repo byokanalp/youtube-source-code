@@ -1,17 +1,22 @@
 [![Subscribe](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/github-readme-subscribe.png)](https://www.youtube.com/channel/UC-66vmW776afaHILFSHnVMA?sub_confirmation=1)
 
+
+---
+
+
 # YouTube Source Codes
 
 > The repository where I publish the source code of the videos I uploaded to YouTube.
 
 > **Tags** : `youtube` , `education` , `source code` , `html` , `css` , `javascript` , `byokanalp`
 
+> **Languages** : &nbsp;&nbsp; [![Türkçe](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/flag/tr.png)](https://github.com/byokanalp/youtube-source-code/blob/master/README-TR.md) &nbsp;&nbsp; [![English](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/flag/en.png)](https://github.com/byokanalp/youtube-source-code)
+
+
 [![Subscribe](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/github-readme-channel-view.png)](https://www.youtube.com/channel/UC-66vmW776afaHILFSHnVMA?sub_confirmation=1)
 
 
 ---
-
-<br>
 
 
 ## Playlists
@@ -24,14 +29,11 @@
 
 
 #### HTML, CSSi JS - Silent Musical Education
+
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://youtu.be/uaW0J7p8iq4) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/source/change-body-background-color) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/pZjQgX) `Change Body Background Color`
 
 
-<br>
-
 ---
-
-<br>
 
 
 ## Social Media
@@ -45,4 +47,3 @@
 [![Facebook](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/facebook.png)](https://www.facebook.com/youtubebyokanalp)
 [![Instagram](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/instagram.png)](https://www.instagram.com/byokanalp)
 [![Twitter](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/twitter.png)](https://twitter.com/byokanalp)
-
