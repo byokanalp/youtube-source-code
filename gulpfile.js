@@ -2,8 +2,8 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync')
 
 let PATH = {
-    root           : 'projects/_TRIALS/',
-    currentProject : 'hj-canvas-ile-ates-efekti'
+    root   : 'source/',
+    trials : 'simple-button-construction'
 }
 
 gulp.task('browser-sync', () => {
@@ -11,21 +11,20 @@ gulp.task('browser-sync', () => {
         browser: 'opera',
         notify: false,
         server: {
-            baseDir: './' + PATH.root + PATH.currentProject,
+            baseDir: './' + PATH.root + PATH.trials,
             proxy: '127.0.0.1:8000',
         }
     })
 })
 
-
 gulp.task('watch', () => {
-    gulp.watch(PATH.root + PATH.currentProject + '**/*.html').on('change', () => { 
+    gulp.watch(PATH.root + PATH.trials + '**/*.html').on('change', () => { 
         browserSync.reload() 
     })
-    gulp.watch(PATH.root + PATH.currentProject + '**/*.css').on('change', () => { 
+    gulp.watch(PATH.root + PATH.trials + '**/*.css').on('change', () => { 
         browserSync.reload() 
     })
-    gulp.watch(PATH.root + PATH.currentProject + '**/*.js').on('change', () => { 
+    gulp.watch(PATH.root + PATH.trials + '**/*.js').on('change', () => { 
         browserSync.reload() 
     })
 })
