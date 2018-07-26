@@ -2,8 +2,8 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync')
 
 let PATH = {
-    root   : 'source/',
-    trials : 'simple-button-construction'
+    root   : 'source/_WATCH/',
+    trials : 'Konuşma Balonu Yapımı'
 }
 
 gulp.task('browser-sync', () => {
