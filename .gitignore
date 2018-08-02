@@ -2,6 +2,5 @@
 *.psd
 node_modules
 package-lock.json
-source/_TRIALS
-source/_WATCH
-gulpfile.js
+_TRIALS
+_WATCH
