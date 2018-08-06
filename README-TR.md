@@ -35,7 +35,7 @@
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://www.youtube.com/watch?v=YQBeUz_HL_M) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/picture-animated-like-buton) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/ajZExV) `Resme Animasyonlu Beğen Butonu Yapımı`
 
 
-#### HTML, CSSi JS - Sessiz Müzikli Eğitimler
+#### HTML, CSS, JS - Sessiz Müzikli Eğitimler
 
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://www.youtube.com/watch?v=uaW0J7p8iq4) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/change-body-background-color) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/pZjQgX) `Site Arka Plan Rengi Değiştirme`
 
