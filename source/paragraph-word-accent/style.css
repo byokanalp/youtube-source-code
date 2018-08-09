@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #efefef;
+    background-color: #252525;
+    font-family: 'Open Sans';
+    width: 100%;
+}
+
+.content {
+    margin-top: 6em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1 {
+    font-family: 'Merriweather';
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+p + p {
+    margin-top: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    cursor: pointer;
+}
+
+/* WORD-LINK */
+a.word-link::before,
+a.word-link::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    padding: 0 2px;
+    transition: .4s;
+}
+
+a.word-link::before {
+    border-bottom: 2px solid tomato;
+    left: -2px;
+    width: calc(100% + 2px);
+    height: 1px;
+}
+
+a.word-link::after {
+    border: 2px solid transparent;
+    left: calc(50% - 4px);
+    width: 0;
+    height: 0;
+}
+
+a.word-link:hover::before {
+    border-color: transparent;
+}
+
+a.word-link:hover::after {
+    width: 100%;
+    height: 1.25em;
+    left: -1em;
+    bottom: -0.35em;
+    padding: 0.5em 1em;
+    border-color: tomato;
+    background-color: tomato;
+    border-radius: 2.5em;
+}
+
+a.word-link {
+    display: inline-block;
+    transition: 0.3s;
+    transition-delay: 0s;
+    transform: scale(1);
+}
+
+a.word-link:hover {
+    color: #efefef;
+    transform: scale(1.4);
+    transition-delay: 0.11s;
+}
