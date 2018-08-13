@@ -24,6 +24,8 @@
 
 #### HTML, CSS - Sessiz Müzikli Eğitimler
 
+- [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://youtu.be/F_pMXcKhFKY) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/uploading-animation-made) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/BPvwQB) `Yükleniyor Animasyonu Yapımı`
+
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://youtu.be/-Bu6kQvKSA4) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/paragraph-word-accent) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/wxErde) `Paragraf Kelime Vurgusu`
 
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://youtu.be/58mlPc3aXec) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/floating-image-making) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/ejrmEb) `Kayan Resim Yapımı`
