@@ -41,6 +41,8 @@
 
 #### HTML, CSS, JS - Sessiz Müzikli Eğitimler
 
+- [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://youtu.be/fGXjlwwz3b8) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/animated-vertical-menu-production) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/rrbxmP) `Animasyonlu Dikey Menü Yapımı`
+
 - [![Youtube](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-youtube.png)](https://www.youtube.com/watch?v=uaW0J7p8iq4) [![Github](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-github.png)](https://github.com/byokanalp/youtube-source-code/tree/master/source/change-body-background-color) [![Codepen](https://raw.githubusercontent.com/byokanalp/youtube-source-code/master/build/images/social-media/link-codepen.png)](https://codepen.io/byokanalp/pen/pZjQgX) `Site Arka Plan Rengi Değiştirme`
 
 

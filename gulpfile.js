@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_WATCH/',
-    trials : 'Yükleniyor Animasyonu Yapımı'
+    trials : 'Animasyonlu Dikey Menü Yapımı'
 }
 
 gulp.task('browser-sync', () => {
