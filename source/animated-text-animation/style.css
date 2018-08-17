@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #e15f41;
+    font-size: 40px;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content span {
+    width: 40px;
+    display: inline-block;
+}
