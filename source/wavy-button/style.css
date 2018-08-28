@@ -1,0 +1,94 @@
+/*/---------------------------------------------- reset /*/
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+/*/---------------------------------------------- main /*/
+:root {
+    --btn-size        : 50px;
+    --btn-color       : #ff3466;
+    --btn-color-hover : #dadada;
+    --icon-size       : 18px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg , .button {
+    position: absolute;
+    font-size: var(--btn-size);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+
+.bg {
+    animation: pulse 1.4s ease infinite;
+    background: var(--btn-color);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 9999;
+    border: none;
+    background: var(--btn-color);
+    background-size: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-in .3s;
+}
+
+.button a {
+    display: flex;
+    color: var(--btn-color-hover);
+    font-size: var(--icon-size);
+    transition: all .3s ease-in .3s;
+}
+
+.button:hover a {
+    color: var(--btn-color);
+}
+
+.button:hover {
+    background: var(--btn-color-hover);
+}
+
+.text {
+    padding-top: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #efefef;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+/*/---------------------------------------------- animation /*/
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
