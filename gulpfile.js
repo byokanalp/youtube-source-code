@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_WATCH/',
-    trials : 'Gradient Geçiş Efekti Yapımı'
+    trials : '__'
 }
 
 gulp.task('browser-sync', () => {
