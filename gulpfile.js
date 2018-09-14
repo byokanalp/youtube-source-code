@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_WATCH/',
-    trials : '__'
+    trials : 'YOUTUBE/CSS Animated Gradient Shadow Effects'
 }
 
 gulp.task('browser-sync', () => {
