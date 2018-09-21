@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient {
+    background: #000;
+    color: #efefef;
+    background: linear-gradient(
+        135deg,
+        #000000 0%,
+        #000000 25%,
+        #1e539e 50%,
+        #ff3083 75%,
+        #7800a8 100%
+    );
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.gradient-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000 url('img.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .5;
+}
+
+.gradient-title {
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    z-index: 2;
+}
+
+.gradient:hover {
+    background-position: 100% 100%;
+}
+
+.gradient:hover .gradient-title {
+    text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+}
