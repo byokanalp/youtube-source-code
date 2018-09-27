@@ -4,4 +4,5 @@ node_modules
 package-lock.json
 _TRIALS
 _WATCH
+_READY
 TODO

@@ -2,8 +2,8 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync')
 
 let PATH = {
-    root   : '_WATCH/',
-    trials : 'YOUTUBE/Pure CSS Text Animation'
+    root   : '_READY/',
+    trials : 'Animasyonlu Gradient Gölge Efekti'
 }
 
 gulp.task('browser-sync', () => {
