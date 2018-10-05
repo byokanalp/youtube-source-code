@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: #222222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    user-select: none;
+}
+
+.scene h1 {
+    position: relative;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+    padding: 5px 10px;
+    box-shadow: 0 0 0 10px #f00;
+    text-shadow: 0 3px 0 #000;
+}
+
+.scene p {
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 0 2px 2px #000;
+}
+
+.scene .magic {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: calc(30% - 10rem);
+    left: calc(50% - 10rem);
+    width: 15rem;
+    height: 15rem;
+    background: url('istanbul.jpg') 50% 50% no-repeat fixed;
+    background-size: cover;
+    border-radius: 50%;
+}

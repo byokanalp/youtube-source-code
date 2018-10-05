@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_READY/',
-    trials : 'Animasyonlu Gradient Gölge Efekti'
+    trials : 'CSS ile Yağmur ve Şimşek Animasyonu'
 }
 
 gulp.task('browser-sync', () => {
