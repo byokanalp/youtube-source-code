@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_READY/',
-    trials : 'CSS ile Yağmur ve Şimşek Animasyonu'
+    trials : 'Hareketli Kaydırma Çubuğu'
 }
 
 gulp.task('browser-sync', () => {
