@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #c02f15;
+    box-shadow: 0 0 0 10px #fff;
+    transform: skewY(-8deg);
+    overflow: hidden;
+}
+
+li {
+    color: #fff;
+    font-size: 4em;
+    padding: 0 14px;
+    text-transform: uppercase;
+    animation: anim 3s linear infinite;
+}
+
+@keyframes -anim {
+    0% {
+        transform: translateY(-100px) rotateY(0deg)
+    }
+    20% {
+        transform: translateY(0) rotateY(360deg)
+    }
+    40% {
+        transform: translateY(-10px) rotateY(360deg)
+    }
+    50% {
+        transform: translateY(0) rotateY(360deg)
+    }
+    60% {
+        transform: translateY(10px) rotateY(360deg)
+    }
+    70% {
+        transform: translateY(0) rotateY(360deg)
+    }
+    80% {
+        transform: translateY(0) rotateY(360deg)
+    }
+    100% {
+        transform: translateY(100px) rotateY(720deg)
+    }
+}
+
+li:nth-child(1) { animation-delay: .1s }
+li:nth-child(2) { animation-delay: .2s }
+li:nth-child(3) { animation-delay: .3s }
+li:nth-child(4) { animation-delay: .4s }
+li:nth-child(5) { animation-delay: .5s }
+li:nth-child(6) { animation-delay: .6s }
+li:nth-child(7) { animation-delay: .7s }

@@ -3,7 +3,7 @@ var gulp        = require('gulp'),
 
 let PATH = {
     root   : '_READY/',
-    trials : 'Kutu Menü Yapımı'
+    trials : 'Filtreli Geçiş Efekti Yapımı'
 }
 
 gulp.task('browser-sync', () => {

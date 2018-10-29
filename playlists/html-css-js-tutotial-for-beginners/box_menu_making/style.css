@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100vw;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+nav *,
+nav *:after {
+    box-sizing: border-box;
+    transition: all 0.35s linear;
+}
+
+nav .nav-item {
+    /* background-color: red; */
+    margin: 0.5em 0.6em;
+    perspective: 50em;
+}
+
+nav .nav-item a {
+    backface-visibility: hidden;
+    display: block;
+    line-height: 2.2em;
+    padding: 0 1.4em;
+    position: relative;
+    transform-style: preserve-3d;
+    background-color: #667273;
+    transform-origin: 50% 50%;
+    text-align: center;
+}
+
+nav .nav-item a:after {
+    background-color: #5c122e;
+    color: transparent;
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    line-height: 2.2em;
+    width: 100%;
+    transform: translateX(0%) rotateY(90deg);
+    transform-origin: 0% 50%;
+}
+
+nav .nav-item:hover a,
+nav .nav-item.current a {
+    transform: translate(-50%) rotateY(-90deg);
+    background-color: #1e2222;
+    color: transparent;
+}
+
+nav .nav-item:hover a:after,
+nav .nav-item.current a:after {
+    background-color: #b12358;
+    color: #fff;
+    cursor: pointer;
+}
